@@ -13,7 +13,8 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         dataTableView.delegate = self
         dataTableView.dataSource = self
         
-        dataTableView.layer.borderWidth = 0
+        dataTableView.layer.borderWidth = 1
+        dataTableView.layer.borderColor = UIColor.label.cgColor
         dataTableView.backgroundColor = .clear
         registerCells()
     }
@@ -43,5 +44,9 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         }
         cell.nicknameLabel.text = "demiirrkerem"
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60
     }
 }
