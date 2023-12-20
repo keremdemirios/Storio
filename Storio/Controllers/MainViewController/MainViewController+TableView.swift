@@ -34,7 +34,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return followersData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -42,7 +42,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             print("MainTableViewCell does not support !")
             return UITableViewCell()
         }
-        cell.nicknameLabel.text = "demiirrkerem"
+        cell.nicknameLabel.text = followersData[indexPath.row]
         return cell
     }
     
