@@ -12,6 +12,7 @@
 		410939642B32D40300D59E50 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410939632B32D40300D59E50 /* UIButton+Extensions.swift */; };
 		410939672B330C6600D59E50 /* InstagramAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410939662B330C6600D59E50 /* InstagramAPIManager.swift */; };
 		410939692B330ECD00D59E50 /* MainViewController+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410939682B330ECD00D59E50 /* MainViewController+UITextField.swift */; };
+		4109396B2B33531200D59E50 /* ToDo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4109396A2B33531200D59E50 /* ToDo.strings */; };
 		41D51A7F2B32225400579BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D51A7E2B32225400579BB2 /* AppDelegate.swift */; };
 		41D51A812B32225400579BB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D51A802B32225400579BB2 /* SceneDelegate.swift */; };
 		41D51A882B32225400579BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D51A872B32225400579BB2 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		410939632B32D40300D59E50 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		410939662B330C6600D59E50 /* InstagramAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAPIManager.swift; sourceTree = "<group>"; };
 		410939682B330ECD00D59E50 /* MainViewController+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UITextField.swift"; sourceTree = "<group>"; };
+		4109396A2B33531200D59E50 /* ToDo.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ToDo.strings; sourceTree = "<group>"; };
 		41D51A7B2B32225400579BB2 /* Storio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D51A7E2B32225400579BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D51A802B32225400579BB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				41D51A872B32225400579BB2 /* Assets.xcassets */,
 				41D51A892B32225400579BB2 /* LaunchScreen.storyboard */,
 				41D51A8C2B32225400579BB2 /* Info.plist */,
+				4109396A2B33531200D59E50 /* ToDo.strings */,
 			);
 			path = Storio;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D51A8B2B32225400579BB2 /* LaunchScreen.storyboard in Resources */,
+				4109396B2B33531200D59E50 /* ToDo.strings in Resources */,
 				41D51AB12B3222C200579BB2 /* MainViewController.xib in Resources */,
 				410939612B3227E900D59E50 /* MainTableViewCell.xib in Resources */,
 				41D51A882B32225400579BB2 /* Assets.xcassets in Resources */,
