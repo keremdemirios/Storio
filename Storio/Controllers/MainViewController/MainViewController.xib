@@ -25,7 +25,7 @@
             <subviews>
                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cin-0y-NVY">
                     <rect key="frame" x="100" y="159" width="193" height="50"/>
-                    <color key="backgroundColor" systemColor="labelColor"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="kQE-0Q-2OF"/>
                     </constraints>
@@ -38,6 +38,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="Pui-GQ-esZ"/>
                     </constraints>
+                    <color key="tintColor" systemColor="labelColor"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Search"/>
                     <connections>
@@ -49,6 +50,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="1W0-Om-gJN"/>
                     </constraints>
+                    <color key="tintColor" systemColor="labelColor"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Clear"/>
                     <connections>
@@ -56,7 +58,7 @@
                     </connections>
                 </button>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="tPy-77-3WR">
-                    <rect key="frame" x="0.0" y="349" width="393" height="469"/>
+                    <rect key="frame" x="10" y="349" width="373" height="469"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfZ-6n-ajF">
@@ -64,6 +66,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="qIV-gl-len"/>
                     </constraints>
+                    <color key="tintColor" systemColor="labelColor"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Find"/>
                     <connections>
@@ -77,15 +80,15 @@
                 <constraint firstItem="ZfZ-6n-ajF" firstAttribute="top" secondItem="cin-0y-NVY" secondAttribute="bottom" constant="50" id="4jf-aq-oJA"/>
                 <constraint firstItem="mPg-OO-wSc" firstAttribute="top" secondItem="cin-0y-NVY" secondAttribute="bottom" constant="50" id="4qu-or-cT6"/>
                 <constraint firstItem="ZfZ-6n-ajF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BLJ-vU-IDC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tPy-77-3WR" secondAttribute="trailing" constant="10" id="Rre-hI-G8s"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="tPy-77-3WR" secondAttribute="bottom" id="UDt-1W-Ruk"/>
                 <constraint firstItem="2BE-ey-Vvd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="XCP-Zl-F2M"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cin-0y-NVY" secondAttribute="trailing" constant="100" id="eCG-5O-dD8"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mPg-OO-wSc" secondAttribute="trailing" constant="50" id="lb3-mG-pIO"/>
+                <constraint firstItem="tPy-77-3WR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="lnF-9p-JYK"/>
                 <constraint firstItem="tPy-77-3WR" firstAttribute="top" secondItem="2BE-ey-Vvd" secondAttribute="bottom" constant="50" id="nMV-rK-ryh"/>
                 <constraint firstItem="cin-0y-NVY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="nU8-xn-8qb"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tPy-77-3WR" secondAttribute="trailing" id="pc9-il-b8O"/>
                 <constraint firstItem="cin-0y-NVY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="tUH-Yc-qOK"/>
-                <constraint firstItem="tPy-77-3WR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="xqM-7X-nh4"/>
                 <constraint firstItem="2BE-ey-Vvd" firstAttribute="top" secondItem="cin-0y-NVY" secondAttribute="bottom" constant="50" id="yQf-qN-shh"/>
             </constraints>
             <point key="canvasLocation" x="36" y="20"/>
